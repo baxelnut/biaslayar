@@ -1,0 +1,14 @@
+.badge {
+  background-color: var(--_bg, var(--clr-tint));
+  color: var(--_fg, var(--clr-ink-soft));
+  border-color: color-mix(
+    in srgb,
+    var(--_fg, var(--clr-ink-soft)) 30%,
+    transparent
+  );
+}
+
+.badge.outline {
+  background-color: transparent;
+  border-color: currentColor;
+}

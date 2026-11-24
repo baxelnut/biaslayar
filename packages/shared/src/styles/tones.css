@@ -1,0 +1,28 @@
+.tone-neutral {
+  --_bg: var(--clr-tint);
+  --_fg: var(--clr-ink-soft);
+}
+.tone-accent {
+  --_bg: var(--clr-accent-soft);
+  --_fg: var(--clr-accent-hover);
+}
+.tone-gold {
+  --_bg: var(--clr-accent-2-soft);
+  --_fg: var(--palette-gold-700);
+}
+.tone-safe {
+  --_bg: var(--clr-safe-soft);
+  --_fg: var(--clr-safe);
+}
+.tone-warning {
+  --_bg: var(--clr-warning-soft);
+  --_fg: var(--clr-warning);
+}
+.tone-danger {
+  --_bg: var(--clr-danger-soft);
+  --_fg: var(--clr-danger);
+}
+.tone-info {
+  --_bg: var(--clr-info-soft);
+  --_fg: var(--clr-info);
+}

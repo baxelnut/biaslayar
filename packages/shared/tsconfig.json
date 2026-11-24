@@ -1,0 +1,13 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "paths": {
+      "@biaslayar/components": ["./src/components/index.ts"],
+      "@biaslayar/data": ["./src/data/index.ts"],
+      "@biaslayar/hooks": ["./src/hooks/index.ts"],
+      "@biaslayar/lib": ["./src/lib/index.ts"],
+      "@biaslayar/types": ["./src/types/index.ts"]
+    }
+  },
+  "include": ["src"]
+}

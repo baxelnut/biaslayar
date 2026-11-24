@@ -1,0 +1,18 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
+    "types": ["vite/client"],
+    "paths": {
+      "@/*": ["./src/*"],
+      "@biaslayar/components": [
+        "../../packages/shared/src/components/index.ts"
+      ],
+      "@biaslayar/data": ["../../packages/shared/src/data/index.ts"],
+      "@biaslayar/hooks": ["../../packages/shared/src/hooks/index.ts"],
+      "@biaslayar/lib": ["../../packages/shared/src/lib/index.ts"],
+      "@biaslayar/types": ["../../packages/shared/src/types/index.ts"]
+    }
+  },
+  "include": ["src"]
+}

@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "jsx": "react-jsx",
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "isolatedModules": true,
+    "verbatimModuleSyntax": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "noEmit": true,
+    "paths": {
+      "@biaslayar/components": ["./packages/shared/src/components/index.ts"],
+      "@biaslayar/data": ["./packages/shared/src/data/index.ts"],
+      "@biaslayar/hooks": ["./packages/shared/src/hooks/index.ts"],
+      "@biaslayar/lib": ["./packages/shared/src/lib/index.ts"],
+      "@biaslayar/types": ["./packages/shared/src/types/index.ts"]
+    }
+  }
+}

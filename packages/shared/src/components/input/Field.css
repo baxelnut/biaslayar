@@ -1,0 +1,28 @@
+.field {
+  display: grid;
+  gap: var(--space-2);
+}
+
+.field__label {
+  font-family: var(--font-control);
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+  color: var(--clr-ink);
+}
+
+.field__required {
+  color: var(--clr-danger);
+}
+
+.field__hint {
+  font-family: var(--font-control);
+  font-size: var(--font-size-xs);
+  color: var(--clr-ink-muted);
+}
+
+.field__error {
+  font-family: var(--font-control);
+  font-size: var(--font-size-xs);
+  font-weight: 600;
+  color: var(--clr-danger);
+}

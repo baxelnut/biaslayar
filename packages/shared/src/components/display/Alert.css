@@ -1,0 +1,21 @@
+.alert {
+  display: grid;
+  gap: var(--space-1);
+  padding: var(--space-4);
+  background-color: var(--_bg, var(--clr-tint));
+  border: 1px solid
+    color-mix(in srgb, var(--_fg, var(--clr-ink-soft)) 30%, transparent);
+  border-left-width: 4px;
+  border-radius: var(--radius-sm);
+  font-family: var(--font-control);
+  font-size: var(--font-size-sm);
+}
+
+.alert__title {
+  font-weight: 700;
+  color: var(--_fg, var(--clr-ink));
+}
+
+.alert__body {
+  color: var(--clr-ink-soft);
+}

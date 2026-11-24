@@ -1,0 +1,8 @@
+.section.muted {
+  background-color: var(--clr-surface);
+  border-block: 1px solid var(--clr-border);
+}
+
+.section.dark {
+  background-color: var(--clr-band);
+}

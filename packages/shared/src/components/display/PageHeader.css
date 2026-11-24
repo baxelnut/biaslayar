@@ -1,0 +1,5 @@
+.page-header {
+  padding-block: var(--space-12) var(--space-10);
+  background-color: var(--clr-band);
+  border-bottom: 3px solid var(--clr-accent);
+}

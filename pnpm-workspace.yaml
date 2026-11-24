@@ -1,0 +1,7 @@
+nodeLinker: hoisted
+linkWorkspacePackages: true
+packages:
+  - apps/*
+  - packages/*
+allowBuilds:
+  esbuild: false

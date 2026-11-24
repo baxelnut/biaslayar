@@ -1,0 +1,7 @@
+.container.narrow {
+  max-width: calc(var(--content-narrow) + 2 * var(--page-pad));
+}
+
+.container.wide {
+  max-width: calc(var(--content-wide) + 2 * var(--page-pad));
+}

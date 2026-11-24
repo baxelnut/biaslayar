@@ -1,0 +1,17 @@
+{
+  "name": "@biaslayar/scripts",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "sitemap": "tsx src/generate-sitemap.ts",
+    "prerender": "tsx src/prerender.ts",
+    "types": "bash generate-types.sh",
+    "typecheck": "tsc -p tsconfig.json"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.20.0",
+    "typescript": "~5.9.0"
+  }
+}

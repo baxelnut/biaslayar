@@ -1,0 +1,9 @@
+.anim-fade-in {
+  animation: fade-in var(--duration-slow) var(--ease-out) both;
+  animation-delay: var(--delay, 0ms);
+}
+
+.anim-fade-up {
+  animation: fade-up var(--duration-slow) var(--ease-out) both;
+  animation-delay: var(--delay, 0ms);
+}

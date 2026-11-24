@@ -1,0 +1,23 @@
+.overlay {
+  position: fixed;
+  inset: 0;
+  z-index: calc(var(--z-nav) - 1);
+  background-color: var(--clr-overlay);
+  animation: fade-in var(--duration-base) var(--ease-out);
+}
+
+.media-scrim {
+  position: relative;
+}
+
+.media-scrim::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to top,
+    rgba(var(--palette-charcoal-900-rgb), 0.78),
+    transparent 60%
+  );
+  pointer-events: none;
+}

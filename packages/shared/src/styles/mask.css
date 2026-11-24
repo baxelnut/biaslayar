@@ -1,0 +1,42 @@
+.mask-fade-b {
+  -webkit-mask-image: linear-gradient(
+    to bottom,
+    #000 calc(100% - var(--mask-size-md)),
+    transparent
+  );
+  mask-image: linear-gradient(
+    to bottom,
+    #000 calc(100% - var(--mask-size-md)),
+    transparent
+  );
+}
+
+.mask-fade-t {
+  -webkit-mask-image: linear-gradient(
+    to top,
+    #000 calc(100% - var(--mask-size-md)),
+    transparent
+  );
+  mask-image: linear-gradient(
+    to top,
+    #000 calc(100% - var(--mask-size-md)),
+    transparent
+  );
+}
+
+.mask-fade-x {
+  -webkit-mask-image: linear-gradient(
+    to right,
+    transparent,
+    #000 var(--mask-size-sm),
+    #000 calc(100% - var(--mask-size-sm)),
+    transparent
+  );
+  mask-image: linear-gradient(
+    to right,
+    transparent,
+    #000 var(--mask-size-sm),
+    #000 calc(100% - var(--mask-size-sm)),
+    transparent
+  );
+}

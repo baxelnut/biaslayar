@@ -1,0 +1,19 @@
+.toast {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-3);
+  padding: var(--space-3) var(--space-3) var(--space-3) var(--space-4);
+  background-color: var(--clr-surface-raised);
+  border: 1px solid var(--clr-border-strong);
+  border-left: 4px solid var(--_fg, var(--clr-ink-muted));
+  border-radius: var(--radius-sm);
+  box-shadow: var(--shadow-md);
+  animation: toast-in var(--duration-base) var(--ease-out);
+}
+
+.toast__message {
+  font-family: var(--font-control);
+  font-size: var(--font-size-sm);
+  color: var(--clr-ink);
+}
